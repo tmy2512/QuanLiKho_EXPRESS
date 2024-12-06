@@ -1,0 +1,18 @@
+.homepage-container {
+    background-image: url("https://deo.shopeemobile.com/shopee/shopee-usertob-live-sg/spx/assets/efdf159f9ad5a113c7ec.png");
+    width: 100vw;
+    height: 100vh;
+    background-position: 100% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .wrapper {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .col-container {
+        background-color: white;
+        border-radius: 6px;
+    }
+}

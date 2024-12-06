@@ -1,0 +1,13 @@
+@import "normalize.css";
+
+$primary: #ef4d2d;
+
+@mixin text-color($color) {
+    color: $color;
+}
+
+.btn-primary {
+    @include text-color(#ffffff !important);
+}
+
+@import "~bootstrap/scss/bootstrap";
